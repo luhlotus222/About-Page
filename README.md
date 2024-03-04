@@ -7,7 +7,7 @@
     <title>About Page</title>
     <style>
         body {
-            font-family: Helvetica, sans-serif;
+            font-family: Helvetica, sans-serif, Times New Romans, Nolo Sans;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -15,14 +15,14 @@
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
-            color: rgb(red, green, blue);
+    
         }
 
         header {
             background-color: #ff3363;
             color: white;
             text-align: center;
-            padding: 1em;
+            padding: 2em;
         }
 
         nav {
@@ -66,17 +66,17 @@
     </header>
 
     <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a href="#">Home Page</a>
+        <a href="#">About Us Page</a>
+        <a href="#">Contact Page</a>
     </nav>
 <!--on this page I will display flex boxes of images below the header that shows art tutorials and types of materials-->
     <main>
         <h2>About Creative Minds</h2>
         <p>Art Content Here</p>
         <img scr="image_1.jpg">
+   <img scr="image_1.jpg">
    <img scr="image_2.jpg">
-   <img scr="image_3.jpg">
    <p>more art content</p>
     </main>
 
